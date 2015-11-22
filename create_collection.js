@@ -30,7 +30,7 @@ if(drop){
 var toInsert;
 var counter = 0;
 if(!drop){
-    for(var route=600;route<1300;route++){
+    for(var route=0;route<1300;route++){
         for(var month=0; month<12;month++){
             for(var year = 2014; year<=2015; year++){
                 toInsert = r_data(year, month, route);

@@ -169,7 +169,7 @@ var crawl = function(urls){
     );
   })
 };
-var NUM = 16800;
+var NUM = 5000;
 var BULK = 10;
 var total_possible;
 var total_counter = 0;
